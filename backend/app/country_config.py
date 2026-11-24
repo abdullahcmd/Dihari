@@ -35,6 +35,7 @@ class Trade(BaseModel):
     icon: str = "🛠️"
     names: dict[str, str] = {}
     aliases: list[str] = []
+    generic: bool = False   # fallback trade; loses to any specific trade match
 
 
 class Place(BaseModel):
@@ -120,11 +121,12 @@ class CountryConfig(BaseModel):
 
     def find_trade(self, text: str) -> Trade | None:
         t = text.lower()
-        best, best_len = None, 0
+        best, best_key = None, (-1, 0)
         for tr in self.trades:
             for a in [tr.code, *tr.aliases]:
-                if a.lower() in t and len(a) > best_len:
-                    best, best_len = tr, len(a)
+                key = (0 if tr.generic else 1, len(a))
+                if a.lower() in t and key > best_key:
+                    best, best_key = tr, key
         return best
 
     def trade(self, code: str) -> Trade | None:

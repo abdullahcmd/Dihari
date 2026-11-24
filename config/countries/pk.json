@@ -35,7 +35,7 @@
     {"code": "paint", "icon": "🎨", "names": {"en": "Painting", "ur": "رنگ"}, "aliases": ["paint", "painting", "painter", "رنگ", "پینٹ", "رنگ و روغن"]},
     {"code": "plumber", "icon": "🔧", "names": {"en": "Plumber", "ur": "پلمبر"}, "aliases": ["plumber", "plumbing", "پلمبر", "نلکا"]},
     {"code": "electrician", "icon": "💡", "names": {"en": "Electrician", "ur": "الیکٹریشن"}, "aliases": ["electrician", "electric", "wiring", "الیکٹریشن", "بجلی"]},
-    {"code": "labour", "icon": "⛏️", "names": {"en": "General labour", "ur": "مزدوری"}, "aliases": ["labour", "labor", "labourer", "mazdoor", "majdoor", "helper", "مزدوری", "مزدور", "بیلدار"]},
+    {"code": "labour", "generic": true, "icon": "⛏️", "names": {"en": "General labour", "ur": "مزدوری"}, "aliases": ["labour", "labor", "labourer", "mazdoor", "majdoor", "helper", "مزدوری", "مزدور", "بیلدار"]},
     {"code": "carpenter", "icon": "🪚", "names": {"en": "Carpenter", "ur": "بڑھئی"}, "aliases": ["carpenter", "carpentry", "wood", "بڑھئی", "لکڑی"]},
     {"code": "shifting", "icon": "📦", "names": {"en": "Loading / shifting", "ur": "سامان اٹھانا"}, "aliases": ["shifting", "loading", "moving", "سامان", "شفٹنگ"]}
   ],
