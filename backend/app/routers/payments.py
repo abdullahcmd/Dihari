@@ -125,3 +125,24 @@ def dev_tick(now: datetime | None = None, db: Session = Depends(get_db)):
     if now is not None and not s.dev_mode:
         raise HTTPException(403, "now override is dev-only")
     return {"reminders_sent": payments.send_due_reminders(db, now)}
+
+
+@router.post("/dev/advance-days")
+def dev_advance(days: int = 7):
+    """DEV_MODE only: move the server clock forward (demo: 'a week later')."""
+    from datetime import timedelta
+    from ..db import CLOCK
+    if not get_settings().dev_mode:
+        raise HTTPException(403, "dev only")
+    CLOCK.offset += timedelta(days=days)
+    return {"offset_days": CLOCK.offset.days}
+
+
+@router.post("/dev/reset-clock")
+def dev_reset():
+    from datetime import timedelta
+    from ..db import CLOCK
+    if not get_settings().dev_mode:
+        raise HTTPException(403, "dev only")
+    CLOCK.offset = timedelta(0)
+    return {"offset_days": 0}

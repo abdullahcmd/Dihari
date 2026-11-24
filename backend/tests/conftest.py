@@ -19,6 +19,9 @@ def _env(monkeypatch):
     get_settings.cache_clear()
     dbmod.init_db("sqlite://")
     limiter.reset()
+    from app.db import CLOCK
+    from datetime import timedelta
+    CLOCK.offset = timedelta(0)
     yield
     get_settings.cache_clear()
 

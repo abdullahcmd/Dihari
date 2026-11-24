@@ -85,7 +85,9 @@
   "daily",
   "per day",
   "a day",
-  "dihari"
+  "dihari",
+  "rozana",
+  "roz"
  ],
  "lexicon.worker_words": [
   "مزدور",
@@ -98,7 +100,9 @@
   "men",
   "people",
   "mazdoor",
-  "banday"
+  "banday",
+  "mazdooron",
+  "mazdur"
  ],
  "lexicon.hour_words": [
   "گھنٹے",
@@ -106,7 +110,10 @@
   "hours",
   "hour",
   "hrs",
-  "hr"
+  "hr",
+  "ghantay",
+  "ghante",
+  "ghanta"
  ],
  "lexicon.day_words": [
   "دن",
@@ -116,7 +123,8 @@
  "lexicon.advance_words": [
   "پیشگی",
   "advance",
-  "ایڈوانس"
+  "ایڈوانس",
+  "peshgi"
  ],
  "lexicon.deduct_words": [
   "کٹوتی",
@@ -124,14 +132,18 @@
   "deduct",
   "deduction",
   "deductions",
-  "کٹے"
+  "کٹے",
+  "katoti",
+  "katouti"
  ],
  "lexicon.transport_words": [
   "کرایہ",
   "ٹرانسپورٹ",
   "transport",
   "fare",
-  "کرائے"
+  "کرائے",
+  "kiraya",
+  "kirayah"
  ],
  "lexicon.weekdays": {
   "monday": 0,
@@ -147,7 +159,15 @@
   "جمعرات": 3,
   "جمعہ": 4,
   "ہفتہ": 5,
-  "اتوار": 6
+  "اتوار": 6,
+  "jumma": 4,
+  "jummah": 4,
+  "peer": 0,
+  "mangal": 1,
+  "budh": 2,
+  "jumerat": 3,
+  "hafta": 5,
+  "itwar": 6
  },
  "lexicon.numbers": {
   "ایک": 1,
@@ -186,7 +206,25 @@
   "fifty": 50,
   "hundred": 100,
   "thousand": 1000,
-  "zero": 0
+  "zero": 0,
+  "aik": 1,
+  "teen": 3,
+  "chaar": 4,
+  "char": 4,
+  "paanch": 5,
+  "panch": 5,
+  "saat": 7,
+  "aath": 8,
+  "nau": 9,
+  "das": 10,
+  "barah": 12,
+  "pandrah": 15,
+  "bees": 20,
+  "tees": 30,
+  "pachas": 50,
+  "sau": 100,
+  "hazar": 1000,
+  "hazaar": 1000
  },
  "lexicon.fractions": {
   "ڈیڑھ": 1.5,
@@ -199,7 +237,9 @@
   "روز کے روز",
   "same day",
   "daily payment",
-  "end of day"
+  "end of day",
+  "usi din",
+  "usi roz"
  ],
  "lexicon.payment_words": [
   "پیسے",
@@ -207,7 +247,10 @@
   "payment",
   "pay",
   "paid",
-  "ادا"
+  "ادا",
+  "paisay",
+  "paise",
+  "adaigi"
  ],
  "time.period.morning": "صبح",
  "time.period.afternoon": "دوپہر",
@@ -218,7 +261,9 @@
   "am",
   "a.m",
   "صبح",
-  "morning"
+  "morning",
+  "subah",
+  "subha"
  ],
  "lexicon.pm_words": [
   "pm",
@@ -227,7 +272,10 @@
   "دوپہر",
   "رات",
   "evening",
-  "afternoon"
+  "afternoon",
+  "shaam",
+  "dopehar",
+  "raat"
  ],
  "lexicon.time_words": [
   "بجے",
@@ -235,7 +283,9 @@
   "pm",
   "a.m",
   "p.m",
-  "o'clock"
+  "o'clock",
+  "baje",
+  "bje"
  ],
  "lexicon.negation": [
   "نہیں",
@@ -244,7 +294,10 @@
   "not",
   "without",
   "بغیر",
-  "نہ ہی"
+  "نہ ہی",
+  "nahi",
+  "nahin",
+  "koi nahi"
  ],
  "lexicon.provided_words": [
   "ملے گا",

@@ -1,0 +1,1898 @@
+[
+ {
+  "id": "clean-00",
+  "class": "clean",
+  "style": "en",
+  "text": "five workers needed tomorrow 8am for plumbing in Chaklala, 1800 a day, 8 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 5,
+   "place": "Chaklala",
+   "trade": "plumber",
+   "rate": 1800,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-01",
+  "class": "clean",
+  "style": "ur",
+  "text": "تین مزدور چاہئیں کل صبح 8 بجے G-11 میں پلمبر کا کام، روزانہ 2100 روپے، 8 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 3,
+   "place": "G-11",
+   "trade": "plumber",
+   "rate": 2100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-02",
+  "class": "clean",
+  "style": "mixed",
+  "text": "kal subah 8 baje G-13 mein teen mazdoor chahiyen plumber ka kaam, 1500 rozana, 8 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 3,
+   "place": "G-13",
+   "trade": "plumber",
+   "rate": 1500,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-03",
+  "class": "clean",
+  "style": "en",
+  "text": "three workers needed tomorrow 8am for tile work in G-13, 2000 a day, 8 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 3,
+   "place": "G-13",
+   "trade": "tile",
+   "rate": 2000,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-04",
+  "class": "clean",
+  "style": "ur",
+  "text": "پانچ مزدور چاہئیں کل صبح 8 بجے I-8 میں رنگ کا کام، روزانہ 2000 روپے، 8 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 5,
+   "place": "I-8",
+   "trade": "paint",
+   "rate": 2000,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-05",
+  "class": "clean",
+  "style": "mixed",
+  "text": "kal subah 8 baje Chaklala mein do mazdoor chahiyen tile ka kaam, 1100 rozana, 8 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 2,
+   "place": "Chaklala",
+   "trade": "tile",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-06",
+  "class": "clean",
+  "style": "en",
+  "text": "two workers needed tomorrow 8am for painting in G-11, 2000 a day, 8 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 2,
+   "place": "G-11",
+   "trade": "paint",
+   "rate": 2000,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-07",
+  "class": "clean",
+  "style": "ur",
+  "text": "دو مزدور چاہئیں کل صبح 8 بجے Chaklala میں پلمبر کا کام، روزانہ 1600 روپے، 8 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 2,
+   "place": "Chaklala",
+   "trade": "plumber",
+   "rate": 1600,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-08",
+  "class": "clean",
+  "style": "mixed",
+  "text": "kal subah 8 baje E-11 mein paanch mazdoor chahiyen rang ka kaam, 1900 rozana, 8 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 5,
+   "place": "E-11",
+   "trade": "paint",
+   "rate": 1900,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-09",
+  "class": "clean",
+  "style": "en",
+  "text": "three workers needed tomorrow 8am for mason work in Saddar, 1800 a day, 8 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 3,
+   "place": "Saddar",
+   "trade": "mason",
+   "rate": 1800,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-10",
+  "class": "clean",
+  "style": "ur",
+  "text": "دو مزدور چاہئیں کل صبح 8 بجے Saddar میں ٹائل کا کام، روزانہ 1800 روپے، 8 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 2,
+   "place": "Saddar",
+   "trade": "tile",
+   "rate": 1800,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-11",
+  "class": "clean",
+  "style": "mixed",
+  "text": "kal subah 8 baje I-8 mein chaar mazdoor chahiyen tile ka kaam, 1500 rozana, 8 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 4,
+   "place": "I-8",
+   "trade": "tile",
+   "rate": 1500,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-12",
+  "class": "clean",
+  "style": "en",
+  "text": "four workers needed tomorrow 8am for painting in Chaklala, 1900 a day, 8 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 4,
+   "place": "Chaklala",
+   "trade": "paint",
+   "rate": 1900,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-13",
+  "class": "clean",
+  "style": "ur",
+  "text": "چار مزدور چاہئیں کل صبح 8 بجے G-13 میں ٹائل کا کام، روزانہ 2000 روپے، 8 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 4,
+   "place": "G-13",
+   "trade": "tile",
+   "rate": 2000,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-14",
+  "class": "clean",
+  "style": "mixed",
+  "text": "kal subah 8 baje I-8 mein do mazdoor chahiyen tile ka kaam, 1500 rozana, 8 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 2,
+   "place": "I-8",
+   "trade": "tile",
+   "rate": 1500,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-15",
+  "class": "clean",
+  "style": "en",
+  "text": "five workers needed tomorrow 8am for tile work in G-13, 2100 a day, 8 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 5,
+   "place": "G-13",
+   "trade": "tile",
+   "rate": 2100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-16",
+  "class": "clean",
+  "style": "ur",
+  "text": "دو مزدور چاہئیں کل صبح 8 بجے G-11 میں رنگ کا کام، روزانہ 1100 روپے، 8 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 2,
+   "place": "G-11",
+   "trade": "paint",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-17",
+  "class": "clean",
+  "style": "mixed",
+  "text": "kal subah 8 baje I-8 mein paanch mazdoor chahiyen plumber ka kaam, 1700 rozana, 8 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 5,
+   "place": "I-8",
+   "trade": "plumber",
+   "rate": 1700,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-18",
+  "class": "clean",
+  "style": "en",
+  "text": "two workers needed tomorrow 8am for painting in E-11, 2100 a day, 8 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 2,
+   "place": "E-11",
+   "trade": "paint",
+   "rate": 2100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-19",
+  "class": "clean",
+  "style": "ur",
+  "text": "چار مزدور چاہئیں کل صبح 8 بجے F-10 میں ٹائل کا کام، روزانہ 1500 روپے، 8 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 4,
+   "place": "F-10",
+   "trade": "tile",
+   "rate": 1500,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-20",
+  "class": "clean",
+  "style": "mixed",
+  "text": "kal subah 8 baje G-13 mein chaar mazdoor chahiyen plumber ka kaam, 1200 rozana, 8 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 4,
+   "place": "G-13",
+   "trade": "plumber",
+   "rate": 1200,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-21",
+  "class": "clean",
+  "style": "en",
+  "text": "three workers needed tomorrow 8am for tile work in G-11, 1100 a day, 8 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 3,
+   "place": "G-11",
+   "trade": "tile",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-22",
+  "class": "clean",
+  "style": "ur",
+  "text": "دو مزدور چاہئیں کل صبح 8 بجے I-8 میں پلمبر کا کام، روزانہ 1300 روپے، 8 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 2,
+   "place": "I-8",
+   "trade": "plumber",
+   "rate": 1300,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "clean-23",
+  "class": "clean",
+  "style": "mixed",
+  "text": "kal subah 8 baje I-8 mein teen mazdoor chahiyen rang ka kaam, 1300 rozana, 8 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 3,
+   "place": "I-8",
+   "trade": "paint",
+   "rate": 1300,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": []
+ },
+ {
+  "id": "below_min_wage-00",
+  "class": "below_min_wage",
+  "style": "en",
+  "text": "five workers needed tomorrow 8am for plumbing in Saddar, 800 a day, 8 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 5,
+   "place": "Saddar",
+   "trade": "plumber",
+   "rate": 800,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage"
+  ]
+ },
+ {
+  "id": "below_min_wage-01",
+  "class": "below_min_wage",
+  "style": "ur",
+  "text": "پانچ مزدور چاہئیں کل صبح 8 بجے G-11 میں ٹائل کا کام، روزانہ 900 روپے، 8 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 5,
+   "place": "G-11",
+   "trade": "tile",
+   "rate": 900,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage"
+  ]
+ },
+ {
+  "id": "below_min_wage-02",
+  "class": "below_min_wage",
+  "style": "mixed",
+  "text": "kal subah 8 baje G-13 mein chaar mazdoor chahiyen rang ka kaam, 800 rozana, 8 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 4,
+   "place": "G-13",
+   "trade": "paint",
+   "rate": 800,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage"
+  ]
+ },
+ {
+  "id": "below_min_wage-03",
+  "class": "below_min_wage",
+  "style": "en",
+  "text": "two workers needed tomorrow 8am for painting in G-13, 800 a day, 8 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 2,
+   "place": "G-13",
+   "trade": "paint",
+   "rate": 800,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage"
+  ]
+ },
+ {
+  "id": "below_min_wage-04",
+  "class": "below_min_wage",
+  "style": "ur",
+  "text": "چار مزدور چاہئیں کل صبح 8 بجے G-13 میں راج مستری کا کام، روزانہ 800 روپے، 8 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 4,
+   "place": "G-13",
+   "trade": "mason",
+   "rate": 800,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage"
+  ]
+ },
+ {
+  "id": "below_min_wage-05",
+  "class": "below_min_wage",
+  "style": "mixed",
+  "text": "kal subah 8 baje G-13 mein do mazdoor chahiyen tile ka kaam, 900 rozana, 8 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 2,
+   "place": "G-13",
+   "trade": "tile",
+   "rate": 900,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage"
+  ]
+ },
+ {
+  "id": "below_min_wage-06",
+  "class": "below_min_wage",
+  "style": "en",
+  "text": "three workers needed tomorrow 8am for mason work in G-13, 900 a day, 8 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 3,
+   "place": "G-13",
+   "trade": "mason",
+   "rate": 900,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage"
+  ]
+ },
+ {
+  "id": "below_min_wage-07",
+  "class": "below_min_wage",
+  "style": "ur",
+  "text": "پانچ مزدور چاہئیں کل صبح 8 بجے G-11 میں پلمبر کا کام، روزانہ 600 روپے، 8 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 5,
+   "place": "G-11",
+   "trade": "plumber",
+   "rate": 600,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage"
+  ]
+ },
+ {
+  "id": "below_min_wage-08",
+  "class": "below_min_wage",
+  "style": "mixed",
+  "text": "kal subah 8 baje G-11 mein paanch mazdoor chahiyen rang ka kaam, 600 rozana, 8 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 5,
+   "place": "G-11",
+   "trade": "paint",
+   "rate": 600,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage"
+  ]
+ },
+ {
+  "id": "below_min_wage-09",
+  "class": "below_min_wage",
+  "style": "en",
+  "text": "three workers needed tomorrow 8am for painting in Saddar, 900 a day, 8 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 3,
+   "place": "Saddar",
+   "trade": "paint",
+   "rate": 900,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage"
+  ]
+ },
+ {
+  "id": "below_min_wage-10",
+  "class": "below_min_wage",
+  "style": "ur",
+  "text": "تین مزدور چاہئیں کل صبح 8 بجے Saddar میں پلمبر کا کام، روزانہ 900 روپے، 8 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 3,
+   "place": "Saddar",
+   "trade": "plumber",
+   "rate": 900,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage"
+  ]
+ },
+ {
+  "id": "below_min_wage-11",
+  "class": "below_min_wage",
+  "style": "mixed",
+  "text": "kal subah 8 baje I-8 mein do mazdoor chahiyen tile ka kaam, 500 rozana, 8 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 2,
+   "place": "I-8",
+   "trade": "tile",
+   "rate": 500,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage"
+  ]
+ },
+ {
+  "id": "no_payment_date-00",
+  "class": "no_payment_date",
+  "style": "en",
+  "text": "two workers needed tomorrow 8am for mason work in E-11, 1400 a day, 8 hours, no deductions",
+  "spec": {
+   "headcount": 2,
+   "place": "E-11",
+   "trade": "mason",
+   "rate": 1400,
+   "hours": 8,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "no_payment_date-01",
+  "class": "no_payment_date",
+  "style": "ur",
+  "text": "پانچ مزدور چاہئیں کل صبح 8 بجے F-10 میں پلمبر کا کام، روزانہ 2000 روپے، 8 گھنٹے، کٹوتی نہیں",
+  "spec": {
+   "headcount": 5,
+   "place": "F-10",
+   "trade": "plumber",
+   "rate": 2000,
+   "hours": 8,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "no_payment_date-02",
+  "class": "no_payment_date",
+  "style": "mixed",
+  "text": "kal subah 8 baje F-10 mein paanch mazdoor chahiyen rang ka kaam, 1200 rozana, 8 ghantay, katoti nahi",
+  "spec": {
+   "headcount": 5,
+   "place": "F-10",
+   "trade": "paint",
+   "rate": 1200,
+   "hours": 8,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "no_payment_date-03",
+  "class": "no_payment_date",
+  "style": "en",
+  "text": "three workers needed tomorrow 8am for plumbing in G-11, 1900 a day, 8 hours, no deductions",
+  "spec": {
+   "headcount": 3,
+   "place": "G-11",
+   "trade": "plumber",
+   "rate": 1900,
+   "hours": 8,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "no_payment_date-04",
+  "class": "no_payment_date",
+  "style": "ur",
+  "text": "دو مزدور چاہئیں کل صبح 8 بجے F-10 میں رنگ کا کام، روزانہ 1400 روپے، 8 گھنٹے، کٹوتی نہیں",
+  "spec": {
+   "headcount": 2,
+   "place": "F-10",
+   "trade": "paint",
+   "rate": 1400,
+   "hours": 8,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "no_payment_date-05",
+  "class": "no_payment_date",
+  "style": "mixed",
+  "text": "kal subah 8 baje G-13 mein do mazdoor chahiyen mistri ka kaam, 1700 rozana, 8 ghantay, katoti nahi",
+  "spec": {
+   "headcount": 2,
+   "place": "G-13",
+   "trade": "mason",
+   "rate": 1700,
+   "hours": 8,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "no_payment_date-06",
+  "class": "no_payment_date",
+  "style": "en",
+  "text": "five workers needed tomorrow 8am for tile work in G-11, 1100 a day, 8 hours, no deductions",
+  "spec": {
+   "headcount": 5,
+   "place": "G-11",
+   "trade": "tile",
+   "rate": 1100,
+   "hours": 8,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "no_payment_date-07",
+  "class": "no_payment_date",
+  "style": "ur",
+  "text": "تین مزدور چاہئیں کل صبح 8 بجے F-10 میں راج مستری کا کام، روزانہ 1900 روپے، 8 گھنٹے، کٹوتی نہیں",
+  "spec": {
+   "headcount": 3,
+   "place": "F-10",
+   "trade": "mason",
+   "rate": 1900,
+   "hours": 8,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "no_payment_date-08",
+  "class": "no_payment_date",
+  "style": "mixed",
+  "text": "kal subah 8 baje G-13 mein teen mazdoor chahiyen mistri ka kaam, 1300 rozana, 8 ghantay, katoti nahi",
+  "spec": {
+   "headcount": 3,
+   "place": "G-13",
+   "trade": "mason",
+   "rate": 1300,
+   "hours": 8,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "no_payment_date-09",
+  "class": "no_payment_date",
+  "style": "en",
+  "text": "five workers needed tomorrow 8am for painting in F-10, 2000 a day, 8 hours, no deductions",
+  "spec": {
+   "headcount": 5,
+   "place": "F-10",
+   "trade": "paint",
+   "rate": 2000,
+   "hours": 8,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "no_payment_date-10",
+  "class": "no_payment_date",
+  "style": "ur",
+  "text": "دو مزدور چاہئیں کل صبح 8 بجے G-13 میں پلمبر کا کام، روزانہ 1600 روپے، 8 گھنٹے، کٹوتی نہیں",
+  "spec": {
+   "headcount": 2,
+   "place": "G-13",
+   "trade": "plumber",
+   "rate": 1600,
+   "hours": 8,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "no_payment_date-11",
+  "class": "no_payment_date",
+  "style": "mixed",
+  "text": "kal subah 8 baje G-13 mein chaar mazdoor chahiyen tile ka kaam, 2000 rozana, 8 ghantay, katoti nahi",
+  "spec": {
+   "headcount": 4,
+   "place": "G-13",
+   "trade": "tile",
+   "rate": 2000,
+   "hours": 8,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "hidden_deduction-00",
+  "class": "hidden_deduction",
+  "style": "en",
+  "text": "two workers needed tomorrow 8am for tile work in I-8, 1500 a day, 8 hours, payment friday, some deductions for food and tools",
+  "spec": {
+   "headcount": 2,
+   "place": "I-8",
+   "trade": "tile",
+   "rate": 1500,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "hidden",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hidden_deduction"
+  ]
+ },
+ {
+  "id": "hidden_deduction-01",
+  "class": "hidden_deduction",
+  "style": "ur",
+  "text": "چار مزدور چاہئیں کل صبح 8 بجے G-11 میں ٹائل کا کام، روزانہ 1200 روپے، 8 گھنٹے، ادائیگی جمعہ، کھانے اور اوزار کی کٹوتی ہو گی",
+  "spec": {
+   "headcount": 4,
+   "place": "G-11",
+   "trade": "tile",
+   "rate": 1200,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "hidden",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hidden_deduction"
+  ]
+ },
+ {
+  "id": "hidden_deduction-02",
+  "class": "hidden_deduction",
+  "style": "mixed",
+  "text": "kal subah 8 baje E-11 mein paanch mazdoor chahiyen mistri ka kaam, 1100 rozana, 8 ghantay, payment friday, katoti hogi khanay ki",
+  "spec": {
+   "headcount": 5,
+   "place": "E-11",
+   "trade": "mason",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "hidden",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hidden_deduction"
+  ]
+ },
+ {
+  "id": "hidden_deduction-03",
+  "class": "hidden_deduction",
+  "style": "en",
+  "text": "three workers needed tomorrow 8am for mason work in Chaklala, 1600 a day, 8 hours, payment friday, some deductions for food and tools",
+  "spec": {
+   "headcount": 3,
+   "place": "Chaklala",
+   "trade": "mason",
+   "rate": 1600,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "hidden",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hidden_deduction"
+  ]
+ },
+ {
+  "id": "hidden_deduction-04",
+  "class": "hidden_deduction",
+  "style": "ur",
+  "text": "دو مزدور چاہئیں کل صبح 8 بجے Saddar میں پلمبر کا کام، روزانہ 1200 روپے، 8 گھنٹے، ادائیگی جمعہ، کھانے اور اوزار کی کٹوتی ہو گی",
+  "spec": {
+   "headcount": 2,
+   "place": "Saddar",
+   "trade": "plumber",
+   "rate": 1200,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "hidden",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hidden_deduction"
+  ]
+ },
+ {
+  "id": "hidden_deduction-05",
+  "class": "hidden_deduction",
+  "style": "mixed",
+  "text": "kal subah 8 baje Chaklala mein paanch mazdoor chahiyen tile ka kaam, 1800 rozana, 8 ghantay, payment friday, katoti hogi khanay ki",
+  "spec": {
+   "headcount": 5,
+   "place": "Chaklala",
+   "trade": "tile",
+   "rate": 1800,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "hidden",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hidden_deduction"
+  ]
+ },
+ {
+  "id": "hidden_deduction-06",
+  "class": "hidden_deduction",
+  "style": "en",
+  "text": "two workers needed tomorrow 8am for plumbing in E-11, 1700 a day, 8 hours, payment friday, some deductions for food and tools",
+  "spec": {
+   "headcount": 2,
+   "place": "E-11",
+   "trade": "plumber",
+   "rate": 1700,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "hidden",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hidden_deduction"
+  ]
+ },
+ {
+  "id": "hidden_deduction-07",
+  "class": "hidden_deduction",
+  "style": "ur",
+  "text": "دو مزدور چاہئیں کل صبح 8 بجے E-11 میں ٹائل کا کام، روزانہ 1200 روپے، 8 گھنٹے، ادائیگی جمعہ، کھانے اور اوزار کی کٹوتی ہو گی",
+  "spec": {
+   "headcount": 2,
+   "place": "E-11",
+   "trade": "tile",
+   "rate": 1200,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "hidden",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hidden_deduction"
+  ]
+ },
+ {
+  "id": "hidden_deduction-08",
+  "class": "hidden_deduction",
+  "style": "mixed",
+  "text": "kal subah 8 baje Saddar mein do mazdoor chahiyen tile ka kaam, 1500 rozana, 8 ghantay, payment friday, katoti hogi khanay ki",
+  "spec": {
+   "headcount": 2,
+   "place": "Saddar",
+   "trade": "tile",
+   "rate": 1500,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "hidden",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hidden_deduction"
+  ]
+ },
+ {
+  "id": "hidden_deduction-09",
+  "class": "hidden_deduction",
+  "style": "en",
+  "text": "five workers needed tomorrow 8am for mason work in Saddar, 1700 a day, 8 hours, payment friday, some deductions for food and tools",
+  "spec": {
+   "headcount": 5,
+   "place": "Saddar",
+   "trade": "mason",
+   "rate": 1700,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "hidden",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hidden_deduction"
+  ]
+ },
+ {
+  "id": "hidden_deduction-10",
+  "class": "hidden_deduction",
+  "style": "ur",
+  "text": "پانچ مزدور چاہئیں کل صبح 8 بجے I-8 میں پلمبر کا کام، روزانہ 1900 روپے، 8 گھنٹے، ادائیگی جمعہ، کھانے اور اوزار کی کٹوتی ہو گی",
+  "spec": {
+   "headcount": 5,
+   "place": "I-8",
+   "trade": "plumber",
+   "rate": 1900,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "hidden",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hidden_deduction"
+  ]
+ },
+ {
+  "id": "hidden_deduction-11",
+  "class": "hidden_deduction",
+  "style": "mixed",
+  "text": "kal subah 8 baje E-11 mein do mazdoor chahiyen tile ka kaam, 1500 rozana, 8 ghantay, payment friday, katoti hogi khanay ki",
+  "spec": {
+   "headcount": 2,
+   "place": "E-11",
+   "trade": "tile",
+   "rate": 1500,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "hidden",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hidden_deduction"
+  ]
+ },
+ {
+  "id": "long_shift-00",
+  "class": "long_shift",
+  "style": "en",
+  "text": "two workers needed tomorrow 8am for tile work in I-8, 1400 a day, 14 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 2,
+   "place": "I-8",
+   "trade": "tile",
+   "rate": 1400,
+   "hours": 14,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hours_exceed_max"
+  ]
+ },
+ {
+  "id": "long_shift-01",
+  "class": "long_shift",
+  "style": "ur",
+  "text": "دو مزدور چاہئیں کل صبح 8 بجے I-8 میں پلمبر کا کام، روزانہ 1500 روپے، 10 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 2,
+   "place": "I-8",
+   "trade": "plumber",
+   "rate": 1500,
+   "hours": 10,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hours_exceed_max"
+  ]
+ },
+ {
+  "id": "long_shift-02",
+  "class": "long_shift",
+  "style": "mixed",
+  "text": "kal subah 8 baje F-10 mein chaar mazdoor chahiyen rang ka kaam, 2100 rozana, 14 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 4,
+   "place": "F-10",
+   "trade": "paint",
+   "rate": 2100,
+   "hours": 14,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hours_exceed_max"
+  ]
+ },
+ {
+  "id": "long_shift-03",
+  "class": "long_shift",
+  "style": "en",
+  "text": "three workers needed tomorrow 8am for painting in E-11, 1600 a day, 14 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 3,
+   "place": "E-11",
+   "trade": "paint",
+   "rate": 1600,
+   "hours": 14,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hours_exceed_max"
+  ]
+ },
+ {
+  "id": "long_shift-04",
+  "class": "long_shift",
+  "style": "ur",
+  "text": "پانچ مزدور چاہئیں کل صبح 8 بجے I-8 میں رنگ کا کام، روزانہ 1600 روپے، 12 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 5,
+   "place": "I-8",
+   "trade": "paint",
+   "rate": 1600,
+   "hours": 12,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hours_exceed_max"
+  ]
+ },
+ {
+  "id": "long_shift-05",
+  "class": "long_shift",
+  "style": "mixed",
+  "text": "kal subah 8 baje G-11 mein chaar mazdoor chahiyen plumber ka kaam, 1400 rozana, 10 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 4,
+   "place": "G-11",
+   "trade": "plumber",
+   "rate": 1400,
+   "hours": 10,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hours_exceed_max"
+  ]
+ },
+ {
+  "id": "long_shift-06",
+  "class": "long_shift",
+  "style": "en",
+  "text": "five workers needed tomorrow 8am for mason work in G-11, 1400 a day, 10 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 5,
+   "place": "G-11",
+   "trade": "mason",
+   "rate": 1400,
+   "hours": 10,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hours_exceed_max"
+  ]
+ },
+ {
+  "id": "long_shift-07",
+  "class": "long_shift",
+  "style": "ur",
+  "text": "تین مزدور چاہئیں کل صبح 8 بجے I-8 میں راج مستری کا کام، روزانہ 1100 روپے، 14 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 3,
+   "place": "I-8",
+   "trade": "mason",
+   "rate": 1100,
+   "hours": 14,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hours_exceed_max"
+  ]
+ },
+ {
+  "id": "long_shift-08",
+  "class": "long_shift",
+  "style": "mixed",
+  "text": "kal subah 8 baje F-10 mein do mazdoor chahiyen rang ka kaam, 1200 rozana, 12 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 2,
+   "place": "F-10",
+   "trade": "paint",
+   "rate": 1200,
+   "hours": 12,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hours_exceed_max"
+  ]
+ },
+ {
+  "id": "long_shift-09",
+  "class": "long_shift",
+  "style": "en",
+  "text": "five workers needed tomorrow 8am for painting in F-10, 1700 a day, 12 hours, payment friday, no deductions",
+  "spec": {
+   "headcount": 5,
+   "place": "F-10",
+   "trade": "paint",
+   "rate": 1700,
+   "hours": 12,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hours_exceed_max"
+  ]
+ },
+ {
+  "id": "long_shift-10",
+  "class": "long_shift",
+  "style": "ur",
+  "text": "پانچ مزدور چاہئیں کل صبح 8 بجے Saddar میں راج مستری کا کام، روزانہ 2000 روپے، 12 گھنٹے، ادائیگی جمعہ، کٹوتی نہیں",
+  "spec": {
+   "headcount": 5,
+   "place": "Saddar",
+   "trade": "mason",
+   "rate": 2000,
+   "hours": 12,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hours_exceed_max"
+  ]
+ },
+ {
+  "id": "long_shift-11",
+  "class": "long_shift",
+  "style": "mixed",
+  "text": "kal subah 8 baje G-13 mein chaar mazdoor chahiyen tile ka kaam, 1500 rozana, 14 ghantay, payment friday, katoti nahi",
+  "spec": {
+   "headcount": 4,
+   "place": "G-13",
+   "trade": "tile",
+   "rate": 1500,
+   "hours": 14,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "hours_exceed_max"
+  ]
+ },
+ {
+  "id": "net_below_after_deduction-00",
+  "class": "net_below_after_deduction",
+  "style": "en",
+  "text": "two workers needed tomorrow 8am for mason work in Saddar, 1100 a day, 8 hours, payment friday, deduction 400 per day for food",
+  "spec": {
+   "headcount": 2,
+   "place": "Saddar",
+   "trade": "mason",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "big",
+   "ded_amt": 400
+  },
+  "labels": [
+   "net_below_min_wage"
+  ]
+ },
+ {
+  "id": "net_below_after_deduction-01",
+  "class": "net_below_after_deduction",
+  "style": "ur",
+  "text": "چار مزدور چاہئیں کل صبح 8 بجے Saddar میں ٹائل کا کام، روزانہ 1100 روپے، 8 گھنٹے، ادائیگی جمعہ، کھانے کی کٹوتی 300 روزانہ",
+  "spec": {
+   "headcount": 4,
+   "place": "Saddar",
+   "trade": "tile",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "big",
+   "ded_amt": 300
+  },
+  "labels": [
+   "net_below_min_wage"
+  ]
+ },
+ {
+  "id": "net_below_after_deduction-02",
+  "class": "net_below_after_deduction",
+  "style": "mixed",
+  "text": "kal subah 8 baje I-8 mein paanch mazdoor chahiyen rang ka kaam, 1100 rozana, 8 ghantay, payment friday, khanay ki katoti 400 rozana",
+  "spec": {
+   "headcount": 5,
+   "place": "I-8",
+   "trade": "paint",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "big",
+   "ded_amt": 400
+  },
+  "labels": [
+   "net_below_min_wage"
+  ]
+ },
+ {
+  "id": "net_below_after_deduction-03",
+  "class": "net_below_after_deduction",
+  "style": "en",
+  "text": "three workers needed tomorrow 8am for painting in Chaklala, 1100 a day, 8 hours, payment friday, deduction 300 per day for food",
+  "spec": {
+   "headcount": 3,
+   "place": "Chaklala",
+   "trade": "paint",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "big",
+   "ded_amt": 300
+  },
+  "labels": [
+   "net_below_min_wage"
+  ]
+ },
+ {
+  "id": "net_below_after_deduction-04",
+  "class": "net_below_after_deduction",
+  "style": "ur",
+  "text": "پانچ مزدور چاہئیں کل صبح 8 بجے G-13 میں راج مستری کا کام، روزانہ 1100 روپے، 8 گھنٹے، ادائیگی جمعہ، کھانے کی کٹوتی 300 روزانہ",
+  "spec": {
+   "headcount": 5,
+   "place": "G-13",
+   "trade": "mason",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "big",
+   "ded_amt": 300
+  },
+  "labels": [
+   "net_below_min_wage"
+  ]
+ },
+ {
+  "id": "net_below_after_deduction-05",
+  "class": "net_below_after_deduction",
+  "style": "mixed",
+  "text": "kal subah 8 baje Chaklala mein teen mazdoor chahiyen plumber ka kaam, 1100 rozana, 8 ghantay, payment friday, khanay ki katoti 300 rozana",
+  "spec": {
+   "headcount": 3,
+   "place": "Chaklala",
+   "trade": "plumber",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "big",
+   "ded_amt": 300
+  },
+  "labels": [
+   "net_below_min_wage"
+  ]
+ },
+ {
+  "id": "net_below_after_deduction-06",
+  "class": "net_below_after_deduction",
+  "style": "en",
+  "text": "two workers needed tomorrow 8am for plumbing in Chaklala, 1100 a day, 8 hours, payment friday, deduction 300 per day for food",
+  "spec": {
+   "headcount": 2,
+   "place": "Chaklala",
+   "trade": "plumber",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "big",
+   "ded_amt": 300
+  },
+  "labels": [
+   "net_below_min_wage"
+  ]
+ },
+ {
+  "id": "net_below_after_deduction-07",
+  "class": "net_below_after_deduction",
+  "style": "ur",
+  "text": "تین مزدور چاہئیں کل صبح 8 بجے G-11 میں راج مستری کا کام، روزانہ 1100 روپے، 8 گھنٹے، ادائیگی جمعہ، کھانے کی کٹوتی 300 روزانہ",
+  "spec": {
+   "headcount": 3,
+   "place": "G-11",
+   "trade": "mason",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "big",
+   "ded_amt": 300
+  },
+  "labels": [
+   "net_below_min_wage"
+  ]
+ },
+ {
+  "id": "net_below_after_deduction-08",
+  "class": "net_below_after_deduction",
+  "style": "mixed",
+  "text": "kal subah 8 baje Chaklala mein paanch mazdoor chahiyen rang ka kaam, 1100 rozana, 8 ghantay, payment friday, khanay ki katoti 400 rozana",
+  "spec": {
+   "headcount": 5,
+   "place": "Chaklala",
+   "trade": "paint",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "big",
+   "ded_amt": 400
+  },
+  "labels": [
+   "net_below_min_wage"
+  ]
+ },
+ {
+  "id": "net_below_after_deduction-09",
+  "class": "net_below_after_deduction",
+  "style": "en",
+  "text": "five workers needed tomorrow 8am for plumbing in G-11, 1100 a day, 8 hours, payment friday, deduction 300 per day for food",
+  "spec": {
+   "headcount": 5,
+   "place": "G-11",
+   "trade": "plumber",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "big",
+   "ded_amt": 300
+  },
+  "labels": [
+   "net_below_min_wage"
+  ]
+ },
+ {
+  "id": "net_below_after_deduction-10",
+  "class": "net_below_after_deduction",
+  "style": "ur",
+  "text": "دو مزدور چاہئیں کل صبح 8 بجے I-8 میں راج مستری کا کام، روزانہ 1100 روپے، 8 گھنٹے، ادائیگی جمعہ، کھانے کی کٹوتی 400 روزانہ",
+  "spec": {
+   "headcount": 2,
+   "place": "I-8",
+   "trade": "mason",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "big",
+   "ded_amt": 400
+  },
+  "labels": [
+   "net_below_min_wage"
+  ]
+ },
+ {
+  "id": "net_below_after_deduction-11",
+  "class": "net_below_after_deduction",
+  "style": "mixed",
+  "text": "kal subah 8 baje G-13 mein teen mazdoor chahiyen tile ka kaam, 1100 rozana, 8 ghantay, payment friday, khanay ki katoti 300 rozana",
+  "spec": {
+   "headcount": 3,
+   "place": "G-13",
+   "trade": "tile",
+   "rate": 1100,
+   "hours": 8,
+   "pay": "friday",
+   "pay_ur": "جمعہ",
+   "ded": "big",
+   "ded_amt": 300
+  },
+  "labels": [
+   "net_below_min_wage"
+  ]
+ },
+ {
+  "id": "combo-00",
+  "class": "combo",
+  "style": "en",
+  "text": "five workers needed tomorrow 8am for mason work in G-13, 700 a day, 12 hours, no deductions",
+  "spec": {
+   "headcount": 5,
+   "place": "G-13",
+   "trade": "mason",
+   "rate": 700,
+   "hours": 12,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage",
+   "hours_exceed_max",
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "combo-01",
+  "class": "combo",
+  "style": "ur",
+  "text": "چار مزدور چاہئیں کل صبح 8 بجے Saddar میں ٹائل کا کام، روزانہ 600 روپے، 12 گھنٹے، کٹوتی نہیں",
+  "spec": {
+   "headcount": 4,
+   "place": "Saddar",
+   "trade": "tile",
+   "rate": 600,
+   "hours": 12,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage",
+   "hours_exceed_max",
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "combo-02",
+  "class": "combo",
+  "style": "mixed",
+  "text": "kal subah 8 baje I-8 mein do mazdoor chahiyen mistri ka kaam, 700 rozana, 12 ghantay, katoti nahi",
+  "spec": {
+   "headcount": 2,
+   "place": "I-8",
+   "trade": "mason",
+   "rate": 700,
+   "hours": 12,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage",
+   "hours_exceed_max",
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "combo-03",
+  "class": "combo",
+  "style": "en",
+  "text": "four workers needed tomorrow 8am for tile work in I-8, 600 a day, 12 hours, no deductions",
+  "spec": {
+   "headcount": 4,
+   "place": "I-8",
+   "trade": "tile",
+   "rate": 600,
+   "hours": 12,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage",
+   "hours_exceed_max",
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "combo-04",
+  "class": "combo",
+  "style": "ur",
+  "text": "پانچ مزدور چاہئیں کل صبح 8 بجے Chaklala میں ٹائل کا کام، روزانہ 700 روپے، 12 گھنٹے، کٹوتی نہیں",
+  "spec": {
+   "headcount": 5,
+   "place": "Chaklala",
+   "trade": "tile",
+   "rate": 700,
+   "hours": 12,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage",
+   "hours_exceed_max",
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "combo-05",
+  "class": "combo",
+  "style": "mixed",
+  "text": "kal subah 8 baje I-8 mein teen mazdoor chahiyen rang ka kaam, 700 rozana, 12 ghantay, katoti nahi",
+  "spec": {
+   "headcount": 3,
+   "place": "I-8",
+   "trade": "paint",
+   "rate": 700,
+   "hours": 12,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage",
+   "hours_exceed_max",
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "combo-06",
+  "class": "combo",
+  "style": "en",
+  "text": "five workers needed tomorrow 8am for tile work in E-11, 700 a day, 12 hours, no deductions",
+  "spec": {
+   "headcount": 5,
+   "place": "E-11",
+   "trade": "tile",
+   "rate": 700,
+   "hours": 12,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage",
+   "hours_exceed_max",
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "combo-07",
+  "class": "combo",
+  "style": "ur",
+  "text": "چار مزدور چاہئیں کل صبح 8 بجے Chaklala میں رنگ کا کام، روزانہ 700 روپے، 12 گھنٹے، کٹوتی نہیں",
+  "spec": {
+   "headcount": 4,
+   "place": "Chaklala",
+   "trade": "paint",
+   "rate": 700,
+   "hours": 12,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage",
+   "hours_exceed_max",
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "combo-08",
+  "class": "combo",
+  "style": "mixed",
+  "text": "kal subah 8 baje Saddar mein chaar mazdoor chahiyen plumber ka kaam, 600 rozana, 12 ghantay, katoti nahi",
+  "spec": {
+   "headcount": 4,
+   "place": "Saddar",
+   "trade": "plumber",
+   "rate": 600,
+   "hours": 12,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage",
+   "hours_exceed_max",
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "combo-09",
+  "class": "combo",
+  "style": "en",
+  "text": "four workers needed tomorrow 8am for painting in Chaklala, 700 a day, 12 hours, no deductions",
+  "spec": {
+   "headcount": 4,
+   "place": "Chaklala",
+   "trade": "paint",
+   "rate": 700,
+   "hours": 12,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage",
+   "hours_exceed_max",
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "combo-10",
+  "class": "combo",
+  "style": "ur",
+  "text": "پانچ مزدور چاہئیں کل صبح 8 بجے G-11 میں پلمبر کا کام، روزانہ 600 روپے، 12 گھنٹے، کٹوتی نہیں",
+  "spec": {
+   "headcount": 5,
+   "place": "G-11",
+   "trade": "plumber",
+   "rate": 600,
+   "hours": 12,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage",
+   "hours_exceed_max",
+   "missing_payment_day"
+  ]
+ },
+ {
+  "id": "combo-11",
+  "class": "combo",
+  "style": "mixed",
+  "text": "kal subah 8 baje E-11 mein do mazdoor chahiyen plumber ka kaam, 600 rozana, 12 ghantay, katoti nahi",
+  "spec": {
+   "headcount": 2,
+   "place": "E-11",
+   "trade": "plumber",
+   "rate": 600,
+   "hours": 12,
+   "pay": null,
+   "pay_ur": "جمعہ",
+   "ded": "none",
+   "ded_amt": 0
+  },
+  "labels": [
+   "below_min_wage",
+   "hours_exceed_max",
+   "missing_payment_day"
+  ]
+ }
+]

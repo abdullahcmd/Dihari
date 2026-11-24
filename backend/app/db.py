@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 from sqlalchemy import DateTime, TypeDecorator, create_engine
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
@@ -6,8 +6,16 @@ from sqlalchemy.orm import DeclarativeBase, sessionmaker
 from .settings import get_settings
 
 
+class _Clock:
+    """Dev-only time travel (DEV_MODE): lets a demo jump a week ahead without waiting. Offset is zero in production."""
+    offset = timedelta(0)
+
+
+CLOCK = _Clock()
+
+
 def utcnow() -> datetime:
-    return datetime.now(timezone.utc)
+    return datetime.now(timezone.utc) + CLOCK.offset
 
 
 class UTCDateTime(TypeDecorator):
