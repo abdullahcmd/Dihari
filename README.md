@@ -20,7 +20,7 @@ cd frontend && npm install && npm run dev   # http://localhost:5173
 docker compose up --build                   # web :8080, api :8000, reviewer page :8080/admin
 ```
 
-Demo logins (OTP is shown on screen in `DEV_MODE` with the stub SMS): hirer `0300 0000001`, worker `0300 2000000`. Reviewer page token: `demo-reviewer-token`. Walk-through: [DEMO.md](DEMO.md).
+Demo logins (OTP is shown on screen in `DEV_MODE` with the stub SMS): hirer `03001000000`, worker `03002000000`. Reviewer page token: `demo-reviewer-token`. Walk-through: [DEMO.md](DEMO.md).
 
 Tests: `cd backend && .venv/bin/python -m pytest -q` (offline, 63 tests) · `cd frontend && npm test`.
 Simulation: `python -m sim.simulate` · Adversarial set: `python -m adversarial.run`.

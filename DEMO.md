@@ -4,7 +4,7 @@ Setup (once): `cd backend && .venv/bin/python scripts/seed.py && .venv/bin/uvico
 
 The same story is an automated test: `backend/tests/test_demo_scenario.py`.
 
-## 0:00 — Hirer lowballs and is stopped (window 1: hirer `0300 0000001`)
+## 0:00 — Hirer lowballs and is stopped (window 1: hirer `03001000000`)
 1. First-run screen: tap **مزدور چاہئیں**. Log in.
 2. Tap the giant mic (or type) and say/type: *"چار مزدور کل صبح 8 بجے جی 13 میں ٹائل کا کام روزانہ 600 روپے"*.
 3. The app asks one question at a time: hours → **8**, payment day → **جمعہ**, deductions → **نہیں**, advance → **صفر**, transport → **نہیں**.
@@ -14,7 +14,7 @@ The same story is an automated test: `backend/tests/test_demo_scenario.py`.
 5. Tap **ریٹ 1000 کر دیں** (or step the rate to 1500). The Urdu read-back plays; the second-model verifier line is checked in code.
 6. Say **"ہاں"** or tap the green tick. Job posted.
 
-## 1:20 — Worker hears it and accepts (window 2: worker `0300 2000000`, area G-11)
+## 1:20 — Worker hears it and accepts (window 2: worker `03002000000`, area G-11)
 7. Jobs tab: the new tile job appears as a big card (icon, **Rs 1500**, ~km, start time). Location is fuzzed (~500 m) — exact address is hidden.
 8. Tap 🔊: the job is read aloud in Urdu. Tap **قبول**. (Try **اپنا ریٹ**: the stepper cannot go below the offer; the server rejects lower counters too.)
 
