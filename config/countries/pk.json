@@ -1,0 +1,59 @@
+{
+  "code": "PK",
+  "name": {"en": "Pakistan", "ur": "پاکستان"},
+  "timezone": "Asia/Karachi",
+  "currency": {"code": "PKR", "symbol": "Rs", "minor_units": 0},
+  "phone": {"dial_code": "+92", "national_regex": "^3\\d{9}$", "strip_leading_zero": true, "example": "0300 1234567"},
+  "languages": ["ur", "en"],
+  "default_language": "ur",
+  "wage_rules_file": "wage_rules/pk.json",
+  "default_radius_km": 10,
+  "max_radius_km": 40,
+  "max_counter_multiple": 2.0,
+  "rate_step": 50,
+  "asr_providers": ["mock"],
+  "tts_providers": ["mock"],
+  "asr_language_hints": {"ur": "ur-PK", "en": "en-PK", "pa": "pa-PK", "sd": "sd-PK", "ps": "ps-PK"},
+  "regions": [
+    {"code": "ICT", "name": {"en": "Islamabad Capital Territory", "ur": "اسلام آباد"},
+     "aliases": ["islamabad", "اسلام آباد"], "patterns": ["^[a-i]-?\\d{1,2}\\b", "^(dha|bahria|gulberg|pwd|b-17|d-12|e-11)"],
+     "bbox": [33.45, 72.80, 33.85, 73.30]},
+    {"code": "PUNJAB", "name": {"en": "Punjab", "ur": "پنجاب"},
+     "aliases": ["rawalpindi", "راولپنڈی", "lahore", "لاہور", "pindi", "saddar", "satellite town", "chaklala", "bahria town phase"],
+     "patterns": [], "bbox": [28.0, 69.5, 34.1, 75.5]},
+    {"code": "SINDH", "name": {"en": "Sindh", "ur": "سندھ"},
+     "aliases": ["karachi", "کراچی", "hyderabad", "sukkur"], "patterns": [], "bbox": [23.5, 66.5, 28.5, 71.1]},
+    {"code": "KP", "name": {"en": "Khyber Pakhtunkhwa", "ur": "خیبر پختونخوا"},
+     "aliases": ["peshawar", "پشاور", "mardan", "abbottabad"], "patterns": [], "bbox": [31.0, 69.0, 36.9, 74.1]},
+    {"code": "BALOCHISTAN", "name": {"en": "Balochistan", "ur": "بلوچستان"},
+     "aliases": ["quetta", "کوئٹہ"], "patterns": [], "bbox": [24.8, 60.8, 32.2, 70.5]}
+  ],
+  "default_region": "ICT",
+  "trades": [
+    {"code": "tile", "icon": "🧱", "names": {"en": "Tile work", "ur": "ٹائل کا کام"}, "aliases": ["tile", "tiles", "tiling", "ٹائل", "ٹائلز"]},
+    {"code": "mason", "icon": "🏗️", "names": {"en": "Mason", "ur": "راج مستری"}, "aliases": ["mason", "mistri", "mistry", "مستری", "راج", "چنائی"]},
+    {"code": "paint", "icon": "🎨", "names": {"en": "Painting", "ur": "رنگ"}, "aliases": ["paint", "painting", "painter", "رنگ", "پینٹ", "رنگ و روغن"]},
+    {"code": "plumber", "icon": "🔧", "names": {"en": "Plumber", "ur": "پلمبر"}, "aliases": ["plumber", "plumbing", "پلمبر", "نلکا"]},
+    {"code": "electrician", "icon": "💡", "names": {"en": "Electrician", "ur": "الیکٹریشن"}, "aliases": ["electrician", "electric", "wiring", "الیکٹریشن", "بجلی"]},
+    {"code": "labour", "icon": "⛏️", "names": {"en": "General labour", "ur": "مزدوری"}, "aliases": ["labour", "labor", "labourer", "mazdoor", "majdoor", "helper", "مزدوری", "مزدور", "بیلدار"]},
+    {"code": "carpenter", "icon": "🪚", "names": {"en": "Carpenter", "ur": "بڑھئی"}, "aliases": ["carpenter", "carpentry", "wood", "بڑھئی", "لکڑی"]},
+    {"code": "shifting", "icon": "📦", "names": {"en": "Loading / shifting", "ur": "سامان اٹھانا"}, "aliases": ["shifting", "loading", "moving", "سامان", "شفٹنگ"]}
+  ],
+  "places": [
+    {"name": "G-13", "aliases": ["g13", "g-13", "جی 13", "جی-13"], "region": "ICT", "lat": 33.6575, "lon": 72.9590, "approx": true},
+    {"name": "G-11", "aliases": ["g11", "g-11", "جی 11"], "region": "ICT", "lat": 33.6780, "lon": 72.9970, "approx": true},
+    {"name": "F-10", "aliases": ["f10", "f-10", "ایف 10"], "region": "ICT", "lat": 33.6930, "lon": 73.0140, "approx": true},
+    {"name": "I-8", "aliases": ["i8", "i-8", "آئی 8"], "region": "ICT", "lat": 33.6600, "lon": 73.0750, "approx": true},
+    {"name": "E-11", "aliases": ["e11", "e-11", "ای 11"], "region": "ICT", "lat": 33.7040, "lon": 72.9700, "approx": true},
+    {"name": "Bahria Town", "aliases": ["bahria", "بحریہ ٹاؤن"], "region": "PUNJAB", "lat": 33.5200, "lon": 73.1100, "approx": true},
+    {"name": "Saddar Rawalpindi", "aliases": ["saddar", "صدر"], "region": "PUNJAB", "lat": 33.5970, "lon": 73.0480, "approx": true},
+    {"name": "Satellite Town", "aliases": ["satellite town", "سیٹلائٹ ٹاؤن"], "region": "PUNJAB", "lat": 33.6350, "lon": 73.0650, "approx": true},
+    {"name": "Chaklala", "aliases": ["chaklala", "چکلالہ"], "region": "PUNJAB", "lat": 33.6150, "lon": 73.0980, "approx": true},
+    {"name": "Adda Faizabad", "aliases": ["faizabad", "فیض آباد"], "region": "ICT", "lat": 33.6620, "lon": 73.0830, "approx": true}
+  ],
+  "holidays": [
+    {"date": "2026-03-23", "name": {"en": "Pakistan Day", "ur": "یوم پاکستان"}},
+    {"date": "2026-05-01", "name": {"en": "Labour Day", "ur": "یوم مزدور"}},
+    {"date": "2026-08-14", "name": {"en": "Independence Day", "ur": "یوم آزادی"}}
+  ]
+}

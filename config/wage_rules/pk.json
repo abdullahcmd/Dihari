@@ -1,0 +1,12 @@
+{
+  "country_code": "PK",
+  "_TODO": "PLACEHOLDER VALUES. Fill min_daily_wage / max_hours_per_day for each region from the OFFICIAL provincial / federal minimum-wage notification, set source_url and effective_date, then set verified=true and placeholder=false. Until then the app shows an 'unverified rule' warning. These numbers are NOT legal figures and NOT legal advice.",
+  "rules": [
+    {"region": "*", "version": "placeholder-0", "effective_date": "2000-01-01", "currency": "PKR", "min_daily_wage": 1000, "max_hours_per_day": 8, "max_payment_delay_days": 7, "source_url": null, "verified": false, "placeholder": true},
+    {"region": "ICT", "version": "placeholder-0", "effective_date": "2000-01-01", "currency": "PKR", "min_daily_wage": 1000, "max_hours_per_day": 8, "max_payment_delay_days": 7, "source_url": null, "verified": false, "placeholder": true},
+    {"region": "PUNJAB", "version": "placeholder-0", "effective_date": "2000-01-01", "currency": "PKR", "min_daily_wage": 1000, "max_hours_per_day": 8, "max_payment_delay_days": 7, "source_url": null, "verified": false, "placeholder": true},
+    {"region": "SINDH", "version": "placeholder-0", "effective_date": "2000-01-01", "currency": "PKR", "min_daily_wage": 1000, "max_hours_per_day": 8, "max_payment_delay_days": 7, "source_url": null, "verified": false, "placeholder": true},
+    {"region": "KP", "version": "placeholder-0", "effective_date": "2000-01-01", "currency": "PKR", "min_daily_wage": 1000, "max_hours_per_day": 8, "max_payment_delay_days": 7, "source_url": null, "verified": false, "placeholder": true},
+    {"region": "BALOCHISTAN", "version": "placeholder-0", "effective_date": "2000-01-01", "currency": "PKR", "min_daily_wage": 1000, "max_hours_per_day": 8, "max_payment_delay_days": 7, "source_url": null, "verified": false, "placeholder": true}
+  ]
+}
