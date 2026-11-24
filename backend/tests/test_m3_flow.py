@@ -86,7 +86,10 @@ def test_full_lifecycle_unpaid_case_and_reviewer(client, make_user, db):
     ag = client.get(f"/agreements/{a1['agreement_id']}", headers=W1).json()
     assert ag["terms"]["daily_rate"] == 1500 and ag["terms"]["lat"] == job["lat"]
     ag2 = client.get(f"/agreements/{asg[0]['agreement_id']}", headers=H).json()
-    assert ag2["worker"]["phone"]
+    assert ag2["worker"]["phone"] and ag2["hirer"] is None
+    assert ag["hirer"]["phone"] and ag["worker"] is None   # each side sees the other's contact only after assignment
+    assert len(client.get(f"/jobs/{jid}/assignments", headers=H).json()) == 2
+    assert client.get("/my/work", headers=W1).json()[0]["agreement_id"] == a1["agreement_id"]
     from app.models import Agreement
     import pytest
     obj = db.get(Agreement, a1["agreement_id"])

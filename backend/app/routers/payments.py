@@ -39,7 +39,7 @@ def my_work(user: User = Depends(need_role("worker")), db: Session = Depends(get
     out = []
     for a in db.scalars(select(Assignment).where(Assignment.worker_id == user.id)):
         j, ag = db.get(Job, a.job_id), db.get(Agreement, a.agreement_id)
-        out.append({"assignment_id": a.id, "status": a.status, "job": job_view(db, j, user), "terms": ag.terms,
+        out.append({"assignment_id": a.id, "agreement_id": a.agreement_id, "status": a.status, "job": job_view(db, j, user), "terms": ag.terms,
                     "terms_hash": ag.terms_hash, "payment_report": a.payment_report, "job_status": j.status,
                     "payment_day": j.payment_day.isoformat()})
     return out
@@ -54,7 +54,9 @@ def get_agreement(agreement_id: str, user: User = Depends(current_user), db: Ses
     w = db.get(User, ag.worker_id)
     return {"id": ag.id, "terms": ag.terms, "terms_hash": ag.terms_hash, "created_at": ag.created_at.isoformat(),
             "assignment_id": asg.id, "assignment_status": asg.status,
-            "worker": {"first_name": reputation.first_name(w), "phone": w.phone} if user.id == ag.hirer_id else None}
+            "worker": {"first_name": reputation.first_name(w), "phone": w.phone} if user.id == ag.hirer_id else None,
+            "hirer": {"first_name": reputation.first_name(db.get(User, ag.hirer_id)), "phone": db.get(User, ag.hirer_id).phone}
+            if user.id == ag.worker_id else None}
 
 
 @router.post("/assignments/{asg_id}/confirm")

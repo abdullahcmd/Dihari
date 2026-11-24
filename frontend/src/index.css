@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html { font-size: 18px; -webkit-tap-highlight-color: transparent; }
+body { margin: 0; line-height: 1.9; }
+button { font-family: inherit; }
+.skeleton { background: linear-gradient(90deg,#e5e7eb 25%,#f3f4f6 50%,#e5e7eb 75%); background-size: 200% 100%; animation: sk 1.2s infinite; border-radius: 1rem; }
+@keyframes sk { to { background-position: -200% 0; } }
+:focus-visible { outline: 4px solid #1d4ed8; outline-offset: 2px; }

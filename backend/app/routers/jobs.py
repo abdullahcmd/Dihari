@@ -117,6 +117,20 @@ def get_job(job_id: str, user: User = Depends(current_user), db: Session = Depen
     return job_view(db, j, user)
 
 
+@router.get("/{job_id}/assignments")
+def list_assignments(job_id: str, user: User = Depends(need_role("hirer")), db: Session = Depends(get_db)):
+    from ..modules import reputation
+    j = db.get(Job, job_id)
+    if not j or j.hirer_id != user.id:
+        raise HTTPException(404)
+    out = []
+    for a in db.scalars(select(Assignment).where(Assignment.job_id == job_id)):
+        w = db.get(User, a.worker_id)
+        out.append({"assignment_id": a.id, "agreement_id": a.agreement_id, "status": a.status, "first_name": reputation.first_name(w),
+                    "phone": w.phone, "my_payment_claim": a.hirer_payment_claim, "rating": a.rating})
+    return out
+
+
 @router.get("/{job_id}/offers")
 def list_offers(job_id: str, sort: str = "best", user: User = Depends(need_role("hirer")), db: Session = Depends(get_db)):
     j = db.get(Job, job_id)
