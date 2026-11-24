@@ -29,6 +29,18 @@ def _optional_routers():
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     init_db()
+    from .ai import chain as ai_chain, service as ai_service
+    from .db import SessionLocal
+    from .models import AICallLog
+
+    def db_sink(rec):
+        with SessionLocal() as db:
+            db.add(AICallLog(kind=rec.kind, provider=rec.provider, ok=rec.ok, latency_ms=rec.latency_ms, error=rec.error))
+            db.commit()
+    ai_chain.clear_sinks()
+    ai_chain.add_sink(db_sink)
+    ai_service.reset()
+    ai_service.check_families()   # fail fast if verifier and extractor share a model family
     task = None
     if get_settings().scheduler_enabled:
         from .modules.payments import scheduler_loop

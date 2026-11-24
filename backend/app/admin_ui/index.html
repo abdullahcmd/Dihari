@@ -1,1 +1,37 @@
-<!doctype html><title>Dihari reviewer</title><p>placeholder, replaced in M5</p>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dihari — reviewer</title>
+<style>
+ body{font:15px system-ui;margin:0;background:#f6f6f4;color:#111}
+ header{background:#14532d;color:#fff;padding:12px 16px;display:flex;gap:12px;align-items:center}
+ main{max-width:900px;margin:16px auto;padding:0 12px}
+ .card{background:#fff;border:1px solid #ddd;border-radius:8px;padding:12px;margin-bottom:12px}
+ button{padding:6px 12px;border-radius:6px;border:1px solid #888;background:#fff;cursor:pointer}
+ button.ok{background:#16a34a;color:#fff;border-color:#16a34a} button.no{background:#dc2626;color:#fff;border-color:#dc2626}
+ .tag{font-size:12px;background:#eee;border-radius:4px;padding:2px 6px;margin-right:6px}
+ pre{white-space:pre-wrap;background:#f3f3f3;padding:8px;border-radius:6px;font-size:12px}
+ input{padding:6px;border:1px solid #888;border-radius:6px}
+</style></head><body>
+<header><b>Dihari reviewer</b><span id="who"></span><span style="flex:1"></span>
+ <input id="tok" type="password" placeholder="reviewer token" size="24"><button onclick="save()">Sign in</button></header>
+<main><p>Rules propose follow-ups. <b>You</b> approve or reject each one; your name is recorded in the audit log. Nothing here is decided by AI.</p>
+<div id="cases">Sign in to load cases.</div></main>
+<script>
+const tok=()=>sessionStorage.getItem('rt')||'';
+function save(){sessionStorage.setItem('rt',document.getElementById('tok').value);load()}
+async function api(p,o={}){const r=await fetch('/admin/api'+p,{...o,headers:{'X-Reviewer-Token':tok(),'Content-Type':'application/json'}});if(!r.ok)throw new Error(r.status);return r.json()}
+async function decide(id,approve){const note=prompt('Note (optional)')||null;await api('/actions/'+id,{method:'POST',body:JSON.stringify({approve,note})});load()}
+async function closeCase(id,resolution){if(!confirm('Close case as '+resolution+'?'))return;await api('/cases/'+id+'/close',{method:'POST',body:JSON.stringify({resolution})});load()}
+const esc=s=>String(s??'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+async function load(){
+ try{const d=await api('/cases?status=open');document.getElementById('who').textContent='signed in as '+d.reviewer;
+ document.getElementById('cases').innerHTML=d.cases.length?d.cases.map(c=>`<div class="card">
+  <div><span class="tag">${esc(c.status)}</span><b>Case ${esc(c.id.slice(0,8))}</b> · ${esc(c.created_at)}</div>
+  <p>${esc(c.summary)}</p>
+  <p>Worker: <b>${esc(c.worker.name)}</b> ${esc(c.worker.phone)} (reported: ${esc(c.worker_report)}) · Hirer: <b>${esc(c.hirer.name)}</b> ${esc(c.hirer.phone)} (claims: ${esc(c.hirer_claim||'—')})</p>
+  <details><summary>Agreement snapshot ${esc(c.agreement.hash.slice(0,12))}…</summary><pre>${esc(JSON.stringify(c.agreement.terms,null,1))}</pre></details>
+  <table>${c.actions.map(a=>`<tr><td>${esc(a.type)}</td><td><span class="tag">${esc(a.status)}</span>${a.reviewer?'by '+esc(a.reviewer):''}</td><td>${a.status==='proposed'?`<button class="ok" onclick="decide('${a.id}',true)">Approve</button> <button class="no" onclick="decide('${a.id}',false)">Reject</button>`:esc(a.note||'')}</td></tr>`).join('')}</table>
+  <p><button onclick="closeCase('${c.id}','paid')">Close: paid</button> <button onclick="closeCase('${c.id}','unresolved')">Close: unresolved</button></p></div>`).join(''):'No open cases.'}
+ catch(e){document.getElementById('cases').textContent='Not signed in or token invalid ('+e.message+')'}}
+if(tok())load();
+</script></body></html>

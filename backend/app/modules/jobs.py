@@ -1,5 +1,5 @@
 """Job lifecycle: strict state machine. Illegal transitions raise."""
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
@@ -90,7 +90,8 @@ def create_job(db: Session, hirer: User, f: dict, *, readback_verified: bool = F
 
     dup = db.scalar(select(func.count()).select_from(Job).where(
         Job.hirer_id == hirer.id, Job.task == f["task"], Job.location_text == f["location_text"],
-        Job.daily_rate == int(f["daily_rate"]), Job.start_at == start_at,
+        Job.daily_rate == int(f["daily_rate"]),
+        Job.start_at.between(start_at - timedelta(hours=1), start_at + timedelta(hours=1)),
         Job.status.in_([S.open.value, S.offers.value])))
     if dup:
         raise JobRejected("duplicate")

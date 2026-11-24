@@ -72,3 +72,29 @@ def fuzz_location(job_id: str, lat: float, lon: float) -> tuple[float, float]:
     dlat = math.degrees(dist * math.cos(ang) / EARTH_M)
     dlon = math.degrees(dist * math.sin(ang) / (EARTH_M * math.cos(math.radians(lat))))
     return round(lat + dlat, 5), round(lon + dlon, 5)
+
+
+def nearby_workers(db: Session, lat: float, lon: float, radius_km: float, *, trade: str | None = None,
+                   country: str | None = None, limit: int = 50):
+    """Workers whose profile point is within radius. Returns [(User, WorkerProfile, dist_m)] nearest first."""
+    from ..models import User, WorkerProfile
+    r = radius_km * 1000
+    q = select(User, WorkerProfile).join(WorkerProfile, WorkerProfile.user_id == User.id).where(
+        WorkerProfile.lat.is_not(None), User.suspended == False)  # noqa: E712
+    if country:
+        q = q.where(User.country_code == country)
+    if db.get_bind().dialect.name == "postgresql":
+        q = q.where(text("ST_DWithin(ST_SetSRID(ST_MakePoint(worker_profiles.lon, worker_profiles.lat), 4326)::geography, "
+                         "ST_SetSRID(ST_MakePoint(:wlon, :wlat), 4326)::geography, :wr)").bindparams(wlat=lat, wlon=lon, wr=r))
+    else:
+        a, b, c, d = _bbox(lat, lon, r)
+        q = q.where(WorkerProfile.lat.between(a, b), WorkerProfile.lon.between(c, d))
+    out = []
+    for u, wp in db.execute(q):
+        if trade and trade not in (wp.trades or []):
+            continue
+        dist = haversine_m(lat, lon, wp.lat, wp.lon)
+        if dist <= r:
+            out.append((u, wp, dist))
+    out.sort(key=lambda x: x[2])
+    return out[:limit]
